@@ -265,6 +265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4000010989089970}
   - component: {fileID: 137000013533651502}
+  - component: {fileID: 931676494}
   m_Layer: 0
   m_Name: MESH
   m_TagString: Untagged
@@ -352,6 +353,26 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.007755317, y: 0.0022234973, z: -0.0000000027939677}
     m_Extent: {x: 0.013625186, y: 0.010196456, z: 0.013846097}
   m_DirtyAABB: 0
+--- !u!95 &931676494
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011333853718}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d1a9fbf5d2e3dec4e82d53b75d778d9f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1000011639861900
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,15 +749,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000013767804016}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 40, y: 40, z: 40}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4000010989089970}
   - {fileID: 4000014031444062}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &95000010583195036
 Animator:

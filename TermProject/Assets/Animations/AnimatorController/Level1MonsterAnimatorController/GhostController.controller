@@ -36,9 +36,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: ghostAttack
     m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: ghostIdle
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2865161108986689970}
   m_Solo: 0
@@ -152,9 +149,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: ghostAttack
     m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: ghostIdle
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4669525362585429279}
   m_Solo: 0
@@ -234,9 +228,6 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: ghostMoving
     m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: ghostIdle
-    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5883313990494362959}
   m_Solo: 0
@@ -270,7 +261,7 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 0
+    m_DefaultBool: 1
     m_Controller: {fileID: 0}
   - m_Name: ghostAttack
     m_Type: 4
@@ -282,7 +273,7 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
@@ -444,7 +435,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 2865161108986689970}
-    m_Position: {x: 400, y: -300, z: 0}
+    m_Position: {x: 400, y: -280, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2425111921075083027}
     m_Position: {x: 700, y: -140, z: 0}
@@ -477,9 +468,6 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 2
     m_ConditionEvent: ghostMoving
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: ghostIdle
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2865161108986689970}
