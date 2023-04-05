@@ -390,17 +390,6 @@
                 },
                 {
                     "name": "",
-                    "id": "fb83e3b1-7481-474d-bc09-9df034150c14",
-                    "path": "<Keyboard>/e",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Interact",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "81ddeef7-5dec-4e1f-9b2e-0aad047a398d",
                     "path": "<Keyboard>/q",
                     "interactions": "",
@@ -451,6 +440,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8a4f756d-1665-4000-9b68-58b060f34603",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
