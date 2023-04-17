@@ -429,7 +429,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.88, z: -1.9999999}
+  m_LocalPosition: {x: 0, y: 1.88, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1987,7 +1987,7 @@ MonoBehaviour:
   healthController: {fileID: 1648677849}
   desiredWalkSpeed: 5
   desiredRunSpeed: 10
-  jumpForce: 200
+  jumpForce: 7
   angularVelocity: 2
   velocityData: {fileID: 2085162654}
   abilityController: {fileID: 941370764}
@@ -2058,7 +2058,7 @@ Transform:
   - {fileID: 966135629}
   - {fileID: 766490818}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6460833929599860018
 GameObject:
@@ -2129,7 +2129,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6638759165458986605}
   m_LocalRotation: {x: 0.20577292, y: -0, z: -0, w: 0.9785998}
-  m_LocalPosition: {x: 0, y: 1.88, z: -1.9999999}
+  m_LocalPosition: {x: 0, y: 1.88, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
