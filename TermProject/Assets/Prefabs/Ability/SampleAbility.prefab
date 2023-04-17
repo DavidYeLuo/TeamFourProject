@@ -115,7 +115,7 @@ Transform:
   m_Children:
   - {fileID: 6461434321759647758}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6461434323606754755
 MonoBehaviour:
@@ -129,8 +129,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf9607d26580c34ea6f05497300a613, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 0}
+  projectile: {fileID: 3250138035906121832, guid: 5d94162acdbe82c4b92a62c8ac289967,
+    type: 3}
   model: {fileID: 6461434321759647749}
+  colliderToDisable: {fileID: 6461434323606754753}
 --- !u!65 &6461434323606754753
 BoxCollider:
   m_ObjectHideFlags: 0
