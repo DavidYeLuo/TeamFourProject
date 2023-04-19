@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2900367802034269935}
   - component: {fileID: 2900367802034269920}
   - component: {fileID: 2900367802034269923}
+  - component: {fileID: 4808527466891754969}
   m_Layer: 0
   m_Name: DamageCube
   m_TagString: Untagged
@@ -147,3 +148,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+--- !u!114 &4808527466891754969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2900367802034269934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 0
+  UnloadEvent: 0
+  Banks: []
+  CollisionTag: 
+  PreloadSamples: 0
