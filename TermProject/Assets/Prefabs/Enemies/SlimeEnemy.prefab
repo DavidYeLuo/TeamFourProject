@@ -16,7 +16,7 @@ PrefabInstance:
     - target: {fileID: 979737433789903059, guid: 5a10199bf1582fa468181b5e7dea4d7e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 979737433789903059, guid: 5a10199bf1582fa468181b5e7dea4d7e,
         type: 3}
@@ -71,6 +71,11 @@ PrefabInstance:
     - target: {fileID: 1670157634875381240, guid: 5a10199bf1582fa468181b5e7dea4d7e,
         type: 3}
       propertyPath: m_FillAmount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1670157634875381240, guid: 5a10199bf1582fa468181b5e7dea4d7e,
+        type: 3}
+      propertyPath: m_FillOrigin
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
