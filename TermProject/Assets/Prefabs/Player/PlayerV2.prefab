@@ -2953,17 +2953,17 @@ PrefabInstance:
     - target: {fileID: 932757664273824243, guid: d1bae4f6975aa83178b4549e61f248b7,
         type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 932757664273824243, guid: d1bae4f6975aa83178b4549e61f248b7,
         type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 932757664273824243, guid: d1bae4f6975aa83178b4549e61f248b7,
         type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 932757664630574264, guid: d1bae4f6975aa83178b4549e61f248b7,
         type: 3}
@@ -3114,6 +3114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   abilityInventory: {fileID: 539609517}
   image: {fileID: 5628451145158965034}
+  nullColorAbility: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &1599128757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3128,6 +3129,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   abilityInventory: {fileID: 539609517}
   image: {fileID: 5628451145120435292}
+  notNullColorAbility: {r: 1, g: 1, b: 1, a: 1}
+  nullColorAbility: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &5628451145120435292 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 932757664273824243, guid: d1bae4f6975aa83178b4549e61f248b7,
