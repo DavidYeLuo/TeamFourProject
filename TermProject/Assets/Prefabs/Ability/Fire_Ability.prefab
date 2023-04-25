@@ -85,6 +85,12 @@ PrefabInstance:
       objectReference: {fileID: 6121875178406492556}
     - target: {fileID: 6461434323606754755, guid: 271189538294f2b4f9686ada533b2f8d,
         type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c9746472f4bb868438ba95588030c2b6,
+        type: 3}
+    - target: {fileID: 6461434323606754755, guid: 271189538294f2b4f9686ada533b2f8d,
+        type: 3}
       propertyPath: texture
       value: 
       objectReference: {fileID: 2800000, guid: c9746472f4bb868438ba95588030c2b6, type: 3}
