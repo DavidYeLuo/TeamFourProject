@@ -192,6 +192,31 @@ PrefabInstance:
       propertyPath: model
       value: 
       objectReference: {fileID: 541576123032930977}
+    - target: {fileID: 6461434323606754755, guid: 271189538294f2b4f9686ada533b2f8d,
+        type: 3}
+      propertyPath: texture
+      value: 
+      objectReference: {fileID: 2800000, guid: ff4cf9f9c4090e743bc5cefc757a2869, type: 3}
+    - target: {fileID: 6461434323606754755, guid: 271189538294f2b4f9686ada533b2f8d,
+        type: 3}
+      propertyPath: backgroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6461434323606754755, guid: 271189538294f2b4f9686ada533b2f8d,
+        type: 3}
+      propertyPath: backgroundColor.b
+      value: 0.29411766
+      objectReference: {fileID: 0}
+    - target: {fileID: 6461434323606754755, guid: 271189538294f2b4f9686ada533b2f8d,
+        type: 3}
+      propertyPath: backgroundColor.g
+      value: 0.29803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 6461434323606754755, guid: 271189538294f2b4f9686ada533b2f8d,
+        type: 3}
+      propertyPath: backgroundColor.r
+      value: 0.20784314
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

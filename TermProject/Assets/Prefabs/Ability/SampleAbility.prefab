@@ -133,6 +133,7 @@ MonoBehaviour:
     type: 3}
   model: {fileID: 6461434321759647749}
   colliderToDisable: {fileID: 6461434323606754753}
+  texture: {fileID: 2800000, guid: c9746472f4bb868438ba95588030c2b6, type: 3}
 --- !u!65 &6461434323606754753
 BoxCollider:
   m_ObjectHideFlags: 0
