@@ -205,6 +205,12 @@ PrefabInstance:
       objectReference: {fileID: 2800000, guid: ff4cf9f9c4090e743bc5cefc757a2869, type: 3}
     - target: {fileID: 6461434323606754755, guid: 271189538294f2b4f9686ada533b2f8d,
         type: 3}
+      propertyPath: projectile
+      value: 
+      objectReference: {fileID: 6595326586218728778, guid: 0e9eae58cc18022beb10874bd972581b,
+        type: 3}
+    - target: {fileID: 6461434323606754755, guid: 271189538294f2b4f9686ada533b2f8d,
+        type: 3}
       propertyPath: backgroundColor.a
       value: 1
       objectReference: {fileID: 0}
