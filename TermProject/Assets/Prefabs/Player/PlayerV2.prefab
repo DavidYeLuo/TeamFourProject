@@ -683,6 +683,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 497424177}
+  - component: {fileID: 1537929540}
   m_Layer: 0
   m_Name: Data
   m_TagString: Untagged
@@ -714,6 +715,21 @@ Transform:
   m_Father: {fileID: 3338030639197644328}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1537929540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497424176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f2197d6341cc65cc9c8722954073a2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 769299364}
+  maxHealth: {fileID: 1205329406}
+  abilityInventory: {fileID: 539609517}
 --- !u!1 &539609515
 GameObject:
   m_ObjectHideFlags: 0
@@ -1990,6 +2006,7 @@ MonoBehaviour:
   abilityController: {fileID: 941370764}
   startHealth: 10
   startMaxHealth: 10
+  dataHandler: {fileID: 1537929540}
   abilitySpawner: {fileID: 438726333}
 --- !u!114 &654368061
 MonoBehaviour:
@@ -2557,7 +2574,6 @@ MonoBehaviour:
     type: 3}
   holder: {fileID: 729215920}
   currentPlayer: {fileID: 1331433847624906835}
-  list_of_UI: []
 --- !u!224 &729215923 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4642662665388582264, guid: c9cc66b67bf0fb74fbf70bd499fbb7a8,
@@ -2743,6 +2759,7 @@ MonoBehaviour:
   abilityInventory: {fileID: 539609517}
   image: {fileID: 5628451145158965034}
   nullColorAbility: {r: 0, g: 0, b: 0, a: 1}
+  hookOnStartup: 1
 --- !u!114 &1599128757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2759,6 +2776,7 @@ MonoBehaviour:
   image: {fileID: 5628451145120435292}
   notNullColorAbility: {r: 1, g: 1, b: 1, a: 1}
   nullColorAbility: {r: 0, g: 0, b: 0, a: 1}
+  hookOnStartup: 1
 --- !u!114 &5628451145120435292 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 932757664273824243, guid: d1bae4f6975aa83178b4549e61f248b7,
