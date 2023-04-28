@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 979737433789903058, guid: 5a10199bf1582fa468181b5e7dea4d7e,
         type: 3}
       propertyPath: m_Name
-      value: Ghost
+      value: GhostEnemy
       objectReference: {fileID: 0}
     - target: {fileID: 979737433789903059, guid: 5a10199bf1582fa468181b5e7dea4d7e,
         type: 3}
@@ -67,6 +67,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891567864563418689, guid: 5a10199bf1582fa468181b5e7dea4d7e,
+        type: 3}
+      propertyPath: animString
+      value: ghostMoving
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -152,6 +157,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 95000010230734170, guid: e3e8e33af43da834294d5f9a02da77e7,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2863e8487104d42458282dd71ef09bd0, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
