@@ -68,6 +68,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1257838108696034092, guid: 5a10199bf1582fa468181b5e7dea4d7e,
+        type: 3}
+      propertyPath: animString
+      value: ghostAttack
+      objectReference: {fileID: 0}
     - target: {fileID: 4891567864563418689, guid: 5a10199bf1582fa468181b5e7dea4d7e,
         type: 3}
       propertyPath: animString

@@ -110,7 +110,7 @@ PrefabInstance:
     - target: {fileID: 979737433789903059, guid: 5a10199bf1582fa468181b5e7dea4d7e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2.59
       objectReference: {fileID: 0}
     - target: {fileID: 979737433789903059, guid: 5a10199bf1582fa468181b5e7dea4d7e,
         type: 3}
@@ -156,6 +156,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1257838108696034092, guid: 5a10199bf1582fa468181b5e7dea4d7e,
+        type: 3}
+      propertyPath: animString
+      value: batAttack
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
