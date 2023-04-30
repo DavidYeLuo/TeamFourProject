@@ -68,6 +68,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1257838108696034092, guid: 5a10199bf1582fa468181b5e7dea4d7e,
+        type: 3}
+      propertyPath: animString
+      value: SlimeAttacking
+      objectReference: {fileID: 0}
+    - target: {fileID: 4891567864563418689, guid: 5a10199bf1582fa468181b5e7dea4d7e,
+        type: 3}
+      propertyPath: animString
+      value: SlimeMoving
+      objectReference: {fileID: 0}
+    - target: {fileID: 7849032366651958257, guid: 5a10199bf1582fa468181b5e7dea4d7e,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5e42dfcf71e5e1a4bbe1173bdfb90fde, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
