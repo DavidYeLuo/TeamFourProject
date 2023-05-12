@@ -101,7 +101,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ffc9d0059cacecd489750ea82a7f5b41,
         type: 3}
       propertyPath: m_Name
-      value: Erika Archer
+      value: Erika Archer Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3707983018852226925, guid: ffc9d0059cacecd489750ea82a7f5b41,
         type: 3}
@@ -146,6 +146,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 349158770}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ffc9d0059cacecd489750ea82a7f5b41,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6302594335142544320}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ffc9d0059cacecd489750ea82a7f5b41,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7149402694581330505}
   m_SourcePrefab: {fileID: 100100000, guid: ffc9d0059cacecd489750ea82a7f5b41, type: 3}
 --- !u!1 &5265450328585705044 stripped
 GameObject:
@@ -180,3 +188,34 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6302594335142544320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5265450328585705044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 1
+  UnloadEvent: 0
+  Banks:
+  - Master
+  CollisionTag: 
+  PreloadSamples: 0
+--- !u!114 &7149402694581330505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5265450328585705044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5715b8693f7e4e2469d7de9f091c4d8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioTeamEvent: {fileID: 11400000, guid: 168e3d3511c16d54a9ed806b13fc17b7, type: 2}
