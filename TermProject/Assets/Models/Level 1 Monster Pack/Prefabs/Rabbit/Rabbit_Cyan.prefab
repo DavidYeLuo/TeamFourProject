@@ -778,6 +778,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4000014191901042}
   - component: {fileID: 95000013350495782}
+  - component: {fileID: 2292927778754544232}
+  - component: {fileID: 4551775796306357315}
+  - component: {fileID: 7151666891933647912}
   m_Layer: 0
   m_Name: Rabbit_Cyan
   m_TagString: Untagged
@@ -800,7 +803,7 @@ Transform:
   - {fileID: 4000010945859010}
   - {fileID: 4000012571834488}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &95000013350495782
 Animator:
@@ -822,6 +825,50 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &2292927778754544232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000014069041812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9468c5f457ace64f8d4df6d642b107f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoadEvent: 1
+  UnloadEvent: 0
+  Banks:
+  - Master
+  CollisionTag: 
+  PreloadSamples: 0
+--- !u!114 &4551775796306357315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000014069041812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5715b8693f7e4e2469d7de9f091c4d8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioTeamEvent: {fileID: 11400000, guid: 9f6b7e5970ce4224da9e0d2431ed6d73, type: 2}
+--- !u!114 &7151666891933647912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000014069041812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5715b8693f7e4e2469d7de9f091c4d8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioTeamEvent: {fileID: 11400000, guid: 33c163c752800b349b749ef2e31888d9, type: 2}
 --- !u!1 &1000014181304996
 GameObject:
   m_ObjectHideFlags: 0
