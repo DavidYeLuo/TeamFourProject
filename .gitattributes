@@ -59,3 +59,7 @@
 *.meta filter=lfs diff=lfs merge=lfs -text
 *.wlt filter=lfs diff=lfs merge=lfs -text
 *.cs filter=lfs diff=lfs merge=lfs -text
+
+# FMOD, make lib files to use line feed (lf), an ending line character for
+# linux and mac, instead of (dos) which is used on windows
+TermProject/Assets/Plugins/FMOD/platforms/mac/*.bundle text eol=lf
